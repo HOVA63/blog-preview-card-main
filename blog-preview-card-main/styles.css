@@ -1,0 +1,76 @@
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "figtree";
+}
+
+.box {
+    height: 520px;
+    width: 380px;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 5%;
+    border: 1px solid black;
+    box-shadow: 10px 10px 1px -3px black
+}
+
+.box .svg img {
+    border-radius: 5%;
+    margin: 6%;
+}
+
+.box .info {
+    margin-left: 6%;
+}
+
+.box .info .label {
+    height: 24px;
+    width: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    font-family: 'Figtree';
+    font-size: 14px;
+    font-weight: 800;
+    padding: 0.7%;
+    border-radius: 6px;
+}
+
+.box .info .publish_date {
+    font-weight: 500;
+    margin-left: 1px;
+}
+
+.box .info a {
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.box .info a:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.box .info .summary {
+    font-weight: 50;
+}
+
+.box .info .author {
+    display: flex;
+    align-items: center;
+}
+
+.box .info .author img {
+    height: 30px;
+}
+
+.box .info .author p {
+    font-weight: 800;
+    margin-left: 3%;
+}
